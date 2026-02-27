@@ -1,19 +1,9 @@
-alert("ahoj")
+  let person1 = "Pepíček";
+  let person2 = "Mařenka";
 
-//proměné pro jména 
-userName = "Pepíček";
-console.log(userName); 
+  let age1 = 17;
+  let age2 = 16;
 
-userName = "Mařenka"; 
-console.log(userName);
+  let combinedAge = age1 + age2;
 
-//proměnné pro věk obou lidí
-console.log(16+17);
-let vek1 = 16;
-let vek2 = 17;
-
-//součet věků do nové proměnné
-let soucet = vek1 + vek2;
-
-//výpis věty do konzole
-console.log(userName + " a " + userName + "mají dohromady" + soucet + " let. ")
+  console.log("The combined age of " + person1 + " and " + person2 + " is " + combinedAge + ".");
