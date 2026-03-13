@@ -1,4 +1,4 @@
-let age = 20;
+let age = 17;
 let isTuesday = false;
 let hasLoyaltyCard = true;
 
